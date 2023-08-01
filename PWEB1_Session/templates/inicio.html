@@ -1,0 +1,14 @@
+{% extends 'base.html'%}
+
+{% block css %}
+    <link rel="stylesheet" href="style.css">
+{% endblock %}
+
+{% block conteudo %}
+
+    <h1>Bem-vindo {{ nome_usuario }}!</h1>
+    <p>Esta é a página de início</p>
+    <p><a href="/logout">Logout</a></p>
+
+{% endblock %}
+
